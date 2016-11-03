@@ -1,7 +1,54 @@
 /*---------
+General
+----------*/
+body{
+    background:#f5f5f5;
+}
+/*---------
 Header
 ---------*/
 .header{
     background:#42b549;
     padding:10px 0;
+}
+/*---------
+Promotion List
+----------*/
+.promotion-list{
+    margin-top: 30px;
+}
+.promotion-list a{
+    color: #000;
+}
+.promotion-list a:hover{
+    color: #000;
+    text-decoration: none;
+}
+.promotion-box{
+    background:#fff;
+    border-radius: 5px;
+    overflow:hidden;
+    margin-bottom: 25px;
+    transition:0.5s;
+}
+.promotion-box:hover{
+    box-shadow: 0 2px 20px 2px rgba(0,0,0,0.1);
+}
+.promotion-box p{
+    height: 50px;
+}
+.promotion-meta{
+    margin-bottom: 30px;
+}
+
+.promotion-description{
+    padding:20px;
+}
+.promotion-code{
+    background:#42b549;
+    text-align:center;
+    padding:10px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 3px;
 }
