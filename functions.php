@@ -4,6 +4,10 @@
 function logo(){
     echo get_template_directory_uri().'/images/tokopedia-logo.png';
 }
+//add images
+function images($images){
+    echo get_template_directory_uri().'/images/'.$images;
+}
 
 //after setup function
 function promotion_setup(){
