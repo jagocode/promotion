@@ -4,6 +4,9 @@ General
 body{
     background:#f5f5f5;
 }
+.img-full{
+    width: 100%;
+}
 /*---------
 Header
 ---------*/
@@ -24,6 +27,38 @@ Promotion List
     color: #000;
     text-decoration: none;
 }
+.promotion-category-list{
+    background:#fff;
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding:15px;
+    border-radius: 3px;
+}
+.promotion-category-list p{
+    padding:5px;
+    margin:0;
+}
+.promotion-group{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.promotion-group li{
+    float: left;
+}
+.promotion-group li a{
+    display: block;
+    padding:5px;
+    margin:0 5px;
+    border:1px solid #42b549;
+    color:#42b549;
+    border-radius: 3px;
+}
+.promotion-group li a:hover{
+    color:#008000;
+    border-color:#008000;
+    cursor: pointer;
+}
 .promotion-box{
     background:#fff;
     border-radius: 5px;
@@ -38,9 +73,10 @@ Promotion List
     background:#fff;
     border:1px dashed #42b549;
     color:#42b549;
+    cursor: pointer;
 }
 .promotion-box p{
-    height: 50px;
+    height: 80px;
 }
 .promotion-meta{
     margin-bottom: 30px;
@@ -48,6 +84,14 @@ Promotion List
 
 .promotion-description{
     padding:20px;
+}
+.promotion-description h3{
+    font-weight: 600;
+    font-size:18px;
+    height: 40px;
+    line-height: 1.2em;
+    color: #42b549;
+    margin-top: 0px;
 }
 .promotion-code{
     background:#42b549;
@@ -59,4 +103,51 @@ Promotion List
     border:1px solid #fff;
     transition: 0.5s;
  
+}
+/*---------
+Content
+----------*/
+.main-content{
+    margin-top: 0px;
+    background:#fff;
+}
+.post-content{
+    padding:20px 40px;
+}
+.post-content p{
+    font-size: 16px;
+    line-height: 1.6em;
+}
+.post-content h2{
+
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.voucher-box{
+    max-width:500px;
+    margin: 20px auto;
+    background:#42b549;
+    border-radius: 5px;
+    padding:10px;
+    color: #fff;
+}
+.voucher-box h3{
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.voucher-item{
+    border:1px dashed #fff;
+    max-width: 300px;
+    padding:10px;
+    color:#fff;
+    margin: 10px auto;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size:20px;
+}
+.divider{
+    border-bottom:1px dashed #fff;
+    width: 100%;
+    margin:20px 0 10px;
 }
