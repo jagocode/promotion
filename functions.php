@@ -36,8 +36,12 @@ function promotion_scripts(){
     wp_enqueue_style('bootstrapcss',get_template_directory_uri().'/css/bootstrap.min.css');
     //adding style css
     wp_enqueue_style('stylesheet',get_stylesheet_uri());
+    //adding mediaquery
+    wp_enqueue_style('mediaquery',get_template_directory_uri().'/css/mediaquery.css');
     //add bootstrap js
     wp_enqueue_script('bootstrap',get_template_directory_uri().'/js/bootstrap.min.js',array('jquery'),'2016',true);
+    //adding controller js
+    wp_enqueue_script('controller',get_template_directory_uri().'/js/controller.js',array('jquery'),'2016',true);
 }
 add_action('wp_enqueue_scripts','promotion_scripts');
 

@@ -1,18 +1,36 @@
 
 <?php get_header();?>
    <!-- Promotion List -->
+     <div class="promotion-category-mobile">
+         <div class="container">
+             <div class="category-mobile">
+                 Pilih Tipe Promosi
+                 <span class="down-menu">
+                     <img src="<?php images('caret-down.png');?>" width="10"></img>
+                 </span>
+                 <ul class="category-mobile-list">
+                     <li><a href="">Semua</a></li>
+                     <li><a href="">Marketplace</a></li>
+                     <li><a href="">Tiket Kereta</a></li>
+                     <li><a href="">Pulsa</a></li>
+                 </ul>
+             </div>
+         </div>
+               
+           </div>
    <div class="promotion-list">
        
        <div class="container">
           
-           
+         
            <div class="promotion-category-list">
                <div class="row">
-                   <div class="col-md-4">
+                   <div class="col-md-4 col-sm-6">
                        <p><strong>Pilih Tipe Promosi</strong></p>
                    </div>
-                   <div class="col-md-8">
-                       <div class="pull-right">
+                   <div class="col-md-8 col-sm-6">
+                       <div class="pull-right promotion-menu">
+                           <span class="icon-caret"></span>
                            <ul class="promotion-group">
                                 <li>
                                <a href="">Semua</a>

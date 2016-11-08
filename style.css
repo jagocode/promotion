@@ -7,6 +7,12 @@ body{
 .img-full{
     width: 100%;
 }
+a{
+    color: #42b549;
+}
+a:hover{
+    color: #008000;
+}
 /*---------
 Header
 ---------*/
@@ -81,6 +87,9 @@ Promotion List
 .promotion-meta{
     margin-bottom: 30px;
 }
+.promotion-category-mobile{
+       display: none;
+    }
 
 .promotion-description{
     padding:20px;
